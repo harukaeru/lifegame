@@ -1,0 +1,20 @@
+.cell {
+  display: inline-block;
+  border: rgba(0, 0, 0, .5) solid 1px;
+  border-right: 0;
+  border-bottom: 0;
+  width: 1rem;
+  height: 1rem;
+}
+
+.last-cell {
+  border-right: rgba(0, 0, 0, .5) solid 1px;
+}
+
+.last-row {
+  border-bottom: rgba(0, 0, 0, .5) solid 1px;
+}
+
+[data-alive="true"] {
+  background-color: black;
+}
